@@ -6,6 +6,9 @@ public class Hero {
     float armor;    //护甲
     int movespeed;  //移动速度
 
+    public void getHp(){
+        System.out.println("您的血量增加了！");
+    }
     public static void main(String[] args){
         Hero gailun = new Hero();
         gailun.name = "盖伦";
