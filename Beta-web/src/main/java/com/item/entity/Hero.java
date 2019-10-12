@@ -7,7 +7,7 @@ public class Hero {
     int movespeed;  //移动速度
 
     public void getHp(){
-        System.out.println("您的血量增加了！");
+        System.out.println("您的血量减少了！");
     }
     public static void main(String[] args){
         Hero gailun = new Hero();
